@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AIVibecode1/AIVibecode1/main/assets/hero.svg" width="900" alt="Mohamed - Engineer | Researcher | Building with AI" />
+  <img src="https://cdn.jsdelivr.net/gh/AIVibecode1/AIVibecode1@main/assets/hero.svg" width="900" alt="Mohamed - Engineer | Researcher | Building with AI" />
 </p>
 
 <div align="center">
@@ -135,8 +135,8 @@
 <h2 align="center" style="font-family:JetBrains Mono, Cascadia Code, Consolas, monospace;color:#e6edf3;"><span style="color:#3fb950;">~/</span>stats</h2>
 
 <div align="center" style="display:flex;flex-wrap:wrap;justify-content:center;gap:14px;">
-  <img src="https://raw.githubusercontent.com/AIVibecode1/AIVibecode1/main/assets/stats.svg" width="430" alt="GitHub stats" />
-  <img src="https://raw.githubusercontent.com/AIVibecode1/AIVibecode1/main/assets/langs.svg" width="430" alt="Top languages" />
+  <img src="https://cdn.jsdelivr.net/gh/AIVibecode1/AIVibecode1@main/assets/stats.svg" width="430" alt="GitHub stats" />
+  <img src="https://cdn.jsdelivr.net/gh/AIVibecode1/AIVibecode1@main/assets/langs.svg" width="430" alt="Top languages" />
   <img src="https://streak-stats.demolab.com/?user=AIVibecode1&theme=transparent&hide_border=true&stroke=30363d&ring=3fb950&fire=3fb950&currStreakNum=e6edf3&sideNums=8b949e&currStreakLabel=3fb950&sideLabels=484f58&dates=484f58&background=0d1117" alt="GitHub streak" />
 </div>
 
