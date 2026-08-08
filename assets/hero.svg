@@ -32,22 +32,30 @@
   <rect width="1000" height="300" fill="url(#glowCyan)"/>
   <rect x="0" y="297" width="1000" height="3" fill="url(#accentLine)" opacity="0.9"/>
 
-  <!-- Left: typographic -->
-  <text x="64" y="92" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="7" fill="#818cf8">HI, I'M</text>
-  <text x="62" y="164" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="url(#nameGrad)">Mohamed</text>
-  <rect x="64" y="188" width="56" height="3" rx="1.5" fill="url(#accentLine)"/>
-  <text x="64" y="224" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#e6edf3">Engineer · Researcher · Building with AI</text>
-  <text x="64" y="254" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-style="italic" fill="#8b949e">Questioning everything</text>
+  <!-- Left: terminal-style intro -->
+  <text x="64" y="88" font-family="Cascadia Code, Fira Code, Consolas, monospace" font-size="16" fill="#818cf8">$</text>
+  <text x="82" y="88" font-family="Cascadia Code, Fira Code, Consolas, monospace" font-size="16" fill="#c9d1d9">whoami</text>
 
-  <!-- Right: link chips -->
-  <g font-family="Cascadia Code, Fira Code, Consolas, monospace" font-size="14" fill="#c9d1d9">
-    <rect x="640" y="92" width="296" height="40" rx="20" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="788" y="117" text-anchor="middle">X  ·  @AIVibecode</text>
+  <text x="62" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="url(#nameGrad)">Mohamed</text>
+  <rect x="64" y="180" width="56" height="3" rx="1.5" fill="url(#accentLine)"/>
 
-    <rect x="640" y="144" width="296" height="40" rx="20" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="788" y="169" text-anchor="middle" fill="#67e8f9">blog.q4bits.com</text>
+  <text x="64" y="214" font-family="Cascadia Code, Fira Code, Consolas, monospace" font-size="18" fill="#818cf8">&gt;</text>
+  <text x="82" y="214" font-family="Cascadia Code, Fira Code, Consolas, monospace" font-size="18" fill="#c9d1d9">Engineer · Researcher · Building with AI</text>
+  <rect x="636" y="197" width="9" height="19" fill="#67e8f9">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
 
-    <rect x="640" y="196" width="296" height="40" rx="20" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="788" y="221" text-anchor="middle" fill="#67e8f9">news.q4bits.com</text>
+  <text x="64" y="246" font-family="Cascadia Code, Fira Code, Consolas, monospace" font-size="16" font-style="italic" fill="#8b949e"># questioning everything</text>
+
+  <!-- Right: link chips as shell prompts -->
+  <g font-family="Cascadia Code, Fira Code, Consolas, monospace" font-size="14">
+    <rect x="640" y="86" width="296" height="40" rx="20" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="752" y="111" text-anchor="middle"><tspan fill="#818cf8">&gt; </tspan><tspan fill="#c9d1d9">X · @AIVibecode</tspan></text>
+
+    <rect x="640" y="138" width="296" height="40" rx="20" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="752" y="163" text-anchor="middle"><tspan fill="#818cf8">&gt; </tspan><tspan fill="#67e8f9">blog.q4bits.com</tspan></text>
+
+    <rect x="640" y="190" width="296" height="40" rx="20" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="752" y="215" text-anchor="middle"><tspan fill="#818cf8">&gt; </tspan><tspan fill="#67e8f9">news.q4bits.com</tspan></text>
   </g>
 </svg>
