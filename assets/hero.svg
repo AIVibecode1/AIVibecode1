@@ -31,7 +31,7 @@
   <text x="64" y="88" font-family="JetBrains Mono, Cascadia Code, Consolas, Menlo, monospace" font-size="16" fill="#3fb950">$</text>
   <text x="82" y="88" font-family="JetBrains Mono, Cascadia Code, Consolas, Menlo, monospace" font-size="16" fill="#c9d1d9">whoami</text>
 
-  <text x="62" y="158" font-family="Segoe UI, Segoe UI Symbol, Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="#e6edf3">Mohamed<tspan font-size="40" dx="-6" dy="-26" fill="#3fb950">▌<animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/></tspan></text>
+  <text x="62" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="#e6edf3">Mohamed</text>
   <rect x="64" y="182" width="56" height="3" rx="1.5" fill="url(#accentLine)"/>
 
   <text x="64" y="216" font-family="JetBrains Mono, Cascadia Code, Consolas, Menlo, monospace" font-size="18" fill="#3fb950">&gt;</text>
