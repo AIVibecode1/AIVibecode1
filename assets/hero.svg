@@ -1,25 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" fill="none" role="img" aria-label="Mohamed — Engineer, Researcher, Building with AI">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" fill="none" role="img" aria-label="Mohamed - Engineer | Researcher | Building with AI">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="300" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0d1117"/>
       <stop offset="1" stop-color="#0a0d12"/>
     </linearGradient>
-    <radialGradient id="glowIndigo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(860 30) scale(360)">
-      <stop stop-color="#6366f1" stop-opacity="0.32"/>
-      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(860 20) scale(400)">
+      <stop stop-color="#3fb950" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#3fb950" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowCyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(60 320) scale(420)">
-      <stop stop-color="#0891b2" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#0891b2" stop-opacity="0"/>
+    <radialGradient id="glowLow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(60 320) scale(440)">
+      <stop stop-color="#2ea043" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#2ea043" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="nameGrad" x1="0" y1="0" x2="620" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#ffffff"/>
-      <stop offset="0.55" stop-color="#c7d2fe"/>
-      <stop offset="1" stop-color="#67e8f9"/>
-    </linearGradient>
     <linearGradient id="accentLine" x1="0" y1="0" x2="120" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#6366f1"/>
-      <stop offset="1" stop-color="#22d3ee"/>
+      <stop stop-color="#3fb950"/>
+      <stop offset="1" stop-color="#7ee787"/>
     </linearGradient>
     <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
       <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#171c24" stroke-width="1"/>
@@ -28,34 +23,34 @@
 
   <rect width="1000" height="300" fill="url(#bg)"/>
   <rect width="1000" height="300" fill="url(#grid)" opacity="0.55"/>
-  <rect width="1000" height="300" fill="url(#glowIndigo)"/>
-  <rect width="1000" height="300" fill="url(#glowCyan)"/>
+  <rect width="1000" height="300" fill="url(#glow)"/>
+  <rect width="1000" height="300" fill="url(#glowLow)"/>
   <rect x="0" y="297" width="1000" height="3" fill="url(#accentLine)" opacity="0.9"/>
 
-  <!-- Left: terminal-style intro -->
-  <text x="64" y="88" font-family="Cascadia Code, Fira Code, Consolas, monospace" font-size="16" fill="#818cf8">$</text>
-  <text x="82" y="88" font-family="Cascadia Code, Fira Code, Consolas, monospace" font-size="16" fill="#c9d1d9">whoami</text>
+  <!-- Left: terminal intro -->
+  <text x="64" y="88" font-family="JetBrains Mono, Cascadia Code, Consolas, Menlo, monospace" font-size="16" fill="#3fb950">$</text>
+  <text x="82" y="88" font-family="JetBrains Mono, Cascadia Code, Consolas, Menlo, monospace" font-size="16" fill="#c9d1d9">whoami</text>
 
-  <text x="62" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="url(#nameGrad)">Mohamed</text>
-  <rect x="64" y="180" width="56" height="3" rx="1.5" fill="url(#accentLine)"/>
-
-  <text x="64" y="214" font-family="Cascadia Code, Fira Code, Consolas, monospace" font-size="18" fill="#818cf8">&gt;</text>
-  <text x="82" y="214" font-family="Cascadia Code, Fira Code, Consolas, monospace" font-size="18" fill="#c9d1d9">Engineer · Researcher · Building with AI</text>
-  <rect x="636" y="197" width="9" height="19" fill="#67e8f9">
+  <text x="62" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="#e6edf3">Mohamed</text>
+  <rect x="330" y="112" width="12" height="46" rx="2" fill="#3fb950">
     <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
   </rect>
+  <rect x="64" y="182" width="56" height="3" rx="1.5" fill="url(#accentLine)"/>
 
-  <text x="64" y="246" font-family="Cascadia Code, Fira Code, Consolas, monospace" font-size="16" font-style="italic" fill="#8b949e"># questioning everything</text>
+  <text x="64" y="216" font-family="JetBrains Mono, Cascadia Code, Consolas, Menlo, monospace" font-size="18" fill="#3fb950">&gt;</text>
+  <text x="82" y="216" font-family="JetBrains Mono, Cascadia Code, Consolas, Menlo, monospace" font-size="18" fill="#c9d1d9">Engineer | Researcher | Building with AI</text>
 
-  <!-- Right: link chips as shell prompts -->
-  <g font-family="Cascadia Code, Fira Code, Consolas, monospace" font-size="14">
+  <text x="64" y="248" font-family="JetBrains Mono, Cascadia Code, Consolas, Menlo, monospace" font-size="16" font-style="italic" fill="#8b949e"># questioning everything</text>
+
+  <!-- Right: link chips -->
+  <g font-family="JetBrains Mono, Cascadia Code, Consolas, Menlo, monospace" font-size="14">
     <rect x="640" y="86" width="296" height="40" rx="20" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="752" y="111" text-anchor="middle"><tspan fill="#818cf8">&gt; </tspan><tspan fill="#c9d1d9">X · @AIVibecode</tspan></text>
+    <text x="752" y="111" text-anchor="middle"><tspan fill="#3fb950">&gt; </tspan><tspan fill="#c9d1d9">@AIVibecode</tspan></text>
 
     <rect x="640" y="138" width="296" height="40" rx="20" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="752" y="163" text-anchor="middle"><tspan fill="#818cf8">&gt; </tspan><tspan fill="#67e8f9">blog.q4bits.com</tspan></text>
+    <text x="752" y="163" text-anchor="middle"><tspan fill="#3fb950">&gt; </tspan><tspan fill="#7ee787">blog.q4bits.com</tspan></text>
 
     <rect x="640" y="190" width="296" height="40" rx="20" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="752" y="215" text-anchor="middle"><tspan fill="#818cf8">&gt; </tspan><tspan fill="#67e8f9">news.q4bits.com</tspan></text>
+    <text x="752" y="215" text-anchor="middle"><tspan fill="#3fb950">&gt; </tspan><tspan fill="#7ee787">news.q4bits.com</tspan></text>
   </g>
 </svg>
